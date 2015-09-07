@@ -20,3 +20,13 @@ First Responder looks to use todays social technology to change this.
 #Technology
 First responder is built on the <b>Meteor</b> platform. This platform makes for a very fast commuincation between parties due to its Optimistic UI and it has built in development tools for both web and mobile platforms.
 The Google Maps API will be consumed to implement maping and walking directions.
+
+#Mock Up
+<div>
+<p>Generic person in need of aid views:</p>
+<img src="https://davidhartman.mybalsamiq.com/mockups/3505431.png?key=764f4a20a2bea22757a8458e899b86d74981e9ca">
+</div>
+<div>
+<p>Confirming location of emergency:</p>
+<img src="https://davidhartman.mybalsamiq.com/mockups/3505434.png?key=99ea841d1328b9720ffef85503af04d199cf437a">
+</div>
