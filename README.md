@@ -1,5 +1,5 @@
 #First Responder
-<h4>built on Meteor</h4>
+<i>built on Meteor</i>
 
 <h3>First Responder is an app designed to assist people in emergency situations receive aid faster. </h3>
 <br>
