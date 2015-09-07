@@ -27,6 +27,14 @@ The Google Maps API will be consumed to implement maping and walking directions.
 <img src="https://davidhartman.mybalsamiq.com/mockups/3505431.png?key=764f4a20a2bea22757a8458e899b86d74981e9ca">
 </div>
 <div>
-<p>Confirming location of emergency:</p>
+<p><br>Confirming location of emergency:</p>
 <img src="https://davidhartman.mybalsamiq.com/mockups/3505434.png?key=99ea841d1328b9720ffef85503af04d199cf437a">
+</div>
+<div>
+<p><br> First responder view - emergency notification</p>
+<img src="https://davidhartman.mybalsamiq.com/mockups/3508310.png?key=bed87d42f5aec0429e3e9e625551ce42378416ae">
+</div>
+<div>
+<p><br> First responder view - in route to emergency</p>
+<img src="https://davidhartman.mybalsamiq.com/mockups/3508266.png?key=ac60c69fda4fd4124ff51816f8b67d58615788fa">
 </div>
