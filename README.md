@@ -38,3 +38,19 @@ The Google Maps API will be consumed to implement maping and walking directions.
 <p><br> First responder view - in route to emergency</p>
 <img src="https://davidhartman.mybalsamiq.com/mockups/3508266.png?key=ac60c69fda4fd4124ff51816f8b67d58615788fa">
 </div>
+
+# page flow outlines- as titled:
+<div><p>
+<img src="https://davidhartman.mybalsamiq.com/mockups/3510307.png?key=a44ecb91f9044d2d7bff82f11531bf7d9a1f3515">
+</p></div>
+<div><p>
+<img src="https://davidhartman.mybalsamiq.com/mockups/3510419.png?key=31f6410d5540910d07c7bacc41c00cd5cd34d411">
+</p></div>
+<div><p>
+<img src="https://davidhartman.mybalsamiq.com/mockups/3510503.png?key=0c13a5b7323edf4c0f686509a2b295ff20ae5290">
+</p></div>
+
+# data transmitted
+<div><p>
+<img src="https://davidhartman.mybalsamiq.com/mockups/3510686.png?key=39200f2d834c837efabcfaa7e2aa696e1ec55a0b">
+</p></div>
