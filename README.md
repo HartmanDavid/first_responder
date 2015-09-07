@@ -15,6 +15,7 @@ First Responder looks to use todays social technology to change this.
 <li>Use phone GPS system to guide first responder to location of emergancy</li>
 <li>Conact local 911 on behalf of person in emergancy</li>
 <li>complete the above in only 8 days</li>
+</ul>
 
 #Technology
 First responder is built on the <b>Meteor</b> platform. This platform makes for a very fast commuincation between parties due to its Optimistic UI and it has built in development tools for both web and mobile platforms.
