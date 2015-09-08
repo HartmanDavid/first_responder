@@ -2,19 +2,16 @@ Emergencies = new Mongo.Collection('emergencies');
 
 if (Meteor.isClient) {
   Session.setDefault('location', []);
-  Session.setDefault('locationLat', null);
-  Session.setDefault('locationLong', null);
 
   Template.requestHelp.helpers({
     location: function () {
-      return Session.get('location')
+        var coords = {
+            location    : Session.get('location'),
+            locationLat : Session.get('locationLat'),
+            locationLong: Session.get('locationLong')
+        };
+        return coords;
     },
-    locationLat: function () {
-      return Session.get('locationLat')
-    },
-    locationLong: function () {
-      return Session.get('locationLong')
-    }
   });
 
   Template.requestHelp.events({
@@ -29,16 +26,15 @@ if (Meteor.isClient) {
             var locationLong = location[1];
             }
             Session.set('location',     location);
-            console.log("location",     location);
             Session.set('locationLat',  locationLat);
-            console.log("Latitiude",    locationLat);
             Session.set('locationLong', locationLong);
-            console.log("Longitude",    locationLong);
+            console.log('location',     location);
+            
             Emergencies.insert({
-                        userId  : Meteor.userId(),
-                        location: position,
-                        date    : new Date(),
-                        status  : 'pending'
+                        userId   : Meteor.userId(),
+                        location : position,
+                        date     : new Date(),
+                        status   : 'pending'
                     });
         }
   });
