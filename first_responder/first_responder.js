@@ -7,7 +7,7 @@ if (Meteor.isClient) {
 
   Template.requestHelp.helpers({
     location: function () {
-      return Session.get('locationLat', "locationLong" )
+      return Session.get('locationLat', 'locationLong' )
     }
   });
 
@@ -18,10 +18,16 @@ if (Meteor.isClient) {
             if (!position){
                 console.log(Geolocation.error());
             }else{
-            var location = [position.coords.longitude, position.coords.latitude];
+            var location     = [position.coords.latitude, position.coords.longitude];
+            var locationLat  = location[0];
+            var locationLong = location[1];
             }
             console.log(location);
             Session.set('location',  location);
+            // Session.set('locationLat',  location[0]);
+            // console.log(locationLat);
+            // Session.set('locationLong',  location[1]);
+            // console.log(locationLong);
             Emergencies.insert({
                         userId  : Meteor.userId(),
                         location: position,
