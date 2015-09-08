@@ -1,0 +1,16 @@
+<head>
+  <title>first_responder</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+  {{> loginButtons}}
+  {{>requestHelp}}
+</body>
+
+<template name="requestHelp">
+  <button>Click Me</button>
+  <p>You're Latitude is: {{locationLat}}</p>
+  <p>You're Longitude is: {{locationLong}}</p>
+  <p>You're Location is: {{location}}</p>
+</template>
