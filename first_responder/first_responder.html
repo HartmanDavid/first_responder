@@ -4,8 +4,9 @@
 
 <body>
   <h1>Welcome to Meteor!</h1>
-  {{> loginButtons}}
+  {{>loginButtons}}
   {{>requestHelp}}
+  {{>map}}
 </body>
 
 <template name="requestHelp">
@@ -17,4 +18,14 @@
       {{location.location}}<br>
 
   </p>
+</template>
+
+<template name="map">
+  <div class="map-container">
+    {{#unless geolocationError}}
+      {{> googleMap name="map" options=mapOptions}}
+    {{else}}
+      Geolocation failed: {{geolocationError}}
+    {{/unless}}
+  </div>
 </template>
