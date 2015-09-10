@@ -9,12 +9,9 @@ autopublish
 insecure
 accounts-ui
 accounts-password
-accounts-facebook
 copleykj:livestamp
 mdg:geolocation
 dburles:google-maps
 aldeed:collection2
 aldeed:autoform
 alanning:roles
-nemo64:bootstrap
-less
